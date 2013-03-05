@@ -17,8 +17,8 @@ package
 		public var sweetie_mc:mc_sweetie = new mc_sweetie(); //new sweetie instance
 		public var tiffany_mc:mc_tiffany = new mc_tiffany(); //new tiffany instance
 
-		public var player1_btn:btn_player1 = new btn_player1; //new player 1 button
-		public var player2_btn:btn_player2 = new btn_player2; //new player 2 button
+		public var player1_btn:btn_player1 = new btn_player1(); //new player 1 button
+		public var player2_btn:btn_player2 = new btn_player2(); //new player 2 button
 
 		public var playerName:MovieClip;
 		/*this variable allows us to set the name of the player, which depending on what character we choose 
